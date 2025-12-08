@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>Great Choice! | Easy Recipe Box</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;min-height:100vh;background:linear-gradient(180deg,#EBF5FB 0%,#fff 100%);display:flex;align-items:center;justify-content:center;padding:20px}
+.wrap{max-width:480px;width:100%;text-align:center}
+.brand{font-size:1.5em;font-weight:700;color:#3498db;margin-bottom:30px}
+.check{width:100px;height:100px;background:linear-gradient(135deg,#3498db,#2980b9);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 30px;font-size:50px;color:#fff;box-shadow:0 15px 50px rgba(0,0,0,0.15);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+h1{margin:0 0 15px;font-size:1.8em;color:#1a1a1a}
+.sub{margin:0 0 30px;color:#666;font-size:16px;line-height:1.5}
+img{width:180px;height:180px;border-radius:24px;object-fit:cover;margin-bottom:30px;box-shadow:0 15px 50px rgba(0,0,0,0.15)}
+.btn{display:inline-block;background:linear-gradient(135deg,#3498db,#2980b9);color:#fff;padding:20px 60px;border-radius:50px;font-size:18px;font-weight:700;text-decoration:none;box-shadow:0 10px 40px rgba(0,0,0,0.2);cursor:pointer;border:none;transition:all 0.3s}
+.btn:hover{transform:translateY(-3px);box-shadow:0 15px 50px rgba(0,0,0,0.25)}
+.trust{display:flex;justify-content:center;gap:25px;margin-top:30px;font-size:13px;color:#888}
+.trust span{display:flex;align-items:center;gap:6px}
+.footer{margin-top:35px;font-size:13px;color:#aaa}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="brand">📦 Easy Recipe Box</div>
+<div class="check">✓</div>
+<h1>Great Choice!</h1>
+<p class="sub">Your delicious <strong>Crispy Vegan Taquitos with Black Bean & Sweet Potato Filling</strong> recipe is ready to view!</p>
+<img src="https://minimalistbaker.com/wp-content/uploads/2021/06/CRISPY-Vegan-Jackfruit-Taquitos-Incredibly-flavorful-baked-not-fried-and-just-10-ingredients-required-minimalistbaker-recipe-plantbased-glutenfree-taquitos-jackfruit-10.jpg" alt="Crispy Vegan Taquitos with Black Bean & Sweet Potato Filling" onerror="this.src='https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200'">
+<br>
+<button class="btn" onclick="goToRecipe()">🍳 View Full Recipe</button>
+<div class="trust">
+<span>✅ 100% Free</span>
+<span>🔒 No Signup</span>
+<span>⭐ Verified Recipe</span>
+</div>
+<p class="footer">You'll be redirected to the full recipe page</p>
+</div>
+<script>
+function goToRecipe(){var e="aHR0cHM6Ly9lYXN5cmVjaXBldmF1bHQuY29tL2NyaXNweS12ZWdhbi10YXF1aXRvcy13aXRoLWJsYWNrLWJlYW4tc3dlZXQtcG90YXRvLWZpbGxpbmcv";try{window.location.href=atob(e)}catch(n){window.location.href="/"}}
+</script>
+</body>
+</html>
